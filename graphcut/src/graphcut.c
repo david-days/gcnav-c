@@ -1,11 +1,11 @@
 /*
- * bordercut.c
+ * graphcut.c
  *
  *  Created on: Oct 21, 2013
  *      Author: david
  */
 
-#include "bordercut.h"
+#include "graphcut.h"
 
 //operations for different graph types
 #include "dg/digraph.h"
@@ -20,7 +20,6 @@
 #include "utils/edgeutils.h"
 #include "utils/mathutils.h"
 #include "gmgt/graphmgt.h"
-#include "GCNavConfig.h"
 
 //type-dependent internal operations
 void (*gt_add_edge) (const size_t *u, const size_t *v, const double *cap);
