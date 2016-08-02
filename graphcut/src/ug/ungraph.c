@@ -16,7 +16,7 @@
  * Returns false if there is a malloc problem; otherwise, true.
  * Memory Mgt:  Producer of edge structures for the neighbors array
  */
-void ug_addEdge(const size_t *u, const size_t *v, const double *cap) {
+void ug_addEdge(size_t *u, size_t *v, double *cap) {
     size_t lu, lv; //local u, local v values
     lu = *min(u,v);
     lv = *max(u,v);
@@ -26,7 +26,7 @@ void ug_addEdge(const size_t *u, const size_t *v, const double *cap) {
 /**
  * Find the edge between the given nodes.  If no edge is found, return a NULL pointer
  */
-seg * ug_findEdge(const size_t *u, const size_t *v) {
+seg * ug_findEdge(size_t *u, size_t *v) {
     size_t lu, lv; //local u, local v values
     lu = *min(u,v);
     lv = *max(u,v);
@@ -43,7 +43,7 @@ seg * ug_findEdge(const size_t *u, const size_t *v) {
 /**
  * Add the flow to the given edge.
  */
-void ug_addFlow(const size_t *u, const size_t *v, const double *flow) {
+void ug_addFlow(size_t *u, size_t *v, double *flow) {
     seg *fedge = ug_findEdge(u,v);
     if (fedge != NULL) {
         fedge->capacity = fedge->capacity - *flow;
@@ -54,7 +54,7 @@ void ug_addFlow(const size_t *u, const size_t *v, const double *flow) {
  * Return a copy of the flow available for a particular edge.
  * returns:  available flow for the requested edge; otherwise, 0.00
  */
-double ug_getCapacity(const size_t *u, const size_t *v) {
+double ug_getCapacity(size_t *u, size_t *v) {
     size_t lu, lv; //local u, local v values
     lu = *min(u,v);
     lv = *max(u,v);
