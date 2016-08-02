@@ -5,8 +5,8 @@
  *      Author: david
  */
 
-#include "graphmgt.h"
-#include "../structs/unionfind.h"
+#include <gmgt/graphmgt.h>
+#include <structs/unionfind.h>
 
 //dimensions of the graph
 /**

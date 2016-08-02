@@ -6,7 +6,7 @@
 #define GCNAV_C_GRAPHMGT_H
 
 
-#include "../graphstructs.h"
+#include <graphstructs.h>
 
 #include <stdlib.h>
 /*

@@ -5,8 +5,8 @@
  *      Author: david
  */
 
-#include "digraph.h"
-#include "../gmgt/graphmgt.h"
+#include <dg/digraph.h>
+#include <gmgt/graphmgt.h>
 
 
 /**

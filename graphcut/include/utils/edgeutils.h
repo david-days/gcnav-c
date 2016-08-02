@@ -6,7 +6,7 @@
 #define GCNAV_C_EDGEUTILS_H
 
 
-#include "../graphstructs.h"
+#include <graphstructs.h>
 
 /*
  * Given a list of edge segments, return

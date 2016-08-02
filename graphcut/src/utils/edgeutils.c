@@ -5,9 +5,9 @@
  *      Author: david
  */
 
-#include "edgeutils.h"
+#include <utils/edgeutils.h>
 
-#include "mathutils.h"
+#include <utils/mathutils.h>
 
 
 #include <math.h>

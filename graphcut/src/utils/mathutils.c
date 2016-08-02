@@ -6,7 +6,7 @@
  *      Author: david
  */
 #include <stddef.h>
-#include "mathutils.h"
+#include <utils/mathutils.h>
 
 /**
  * Return the min value of the two given capacities

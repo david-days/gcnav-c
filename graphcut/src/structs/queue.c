@@ -6,7 +6,7 @@
  */
 
 
-#include "queue.h"
+#include <structs/queue.h>
 
 
 node * queuePush(size_t n, node *queue) {

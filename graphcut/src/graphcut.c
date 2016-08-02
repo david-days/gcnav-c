@@ -5,21 +5,21 @@
  *      Author: david
  */
 
-#include "graphcut.h"
+#include <graphcut.h>
 
 //operations for different graph types
-#include "dg/digraph.h"
-#include "ug/ungraph.h"
+#include <dg/digraph.h>
+#include <ug/ungraph.h>
 
 //structures to run algorithm
-#include "structs/queue.h"
-#include "structs/stack.h"
-#include "structs/unionfind.h"
+#include <structs/queue.h>
+#include <structs/stack.h>
+#include <structs/unionfind.h>
 
 //utility functions
-#include "utils/edgeutils.h"
-#include "utils/mathutils.h"
-#include "gmgt/graphmgt.h"
+#include <utils/edgeutils.h>
+#include <utils/mathutils.h>
+#include <gmgt/graphmgt.h>
 
 //type-dependent internal operations
 void (*gt_add_edge) (const size_t *u, const size_t *v, const double *cap);

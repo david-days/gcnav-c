@@ -6,7 +6,7 @@
 #define GCNAV_C_QUEUE_H
 
 
-#include "../graphstructs.h"
+#include <graphstructs.h>
 
 #include <stdlib.h>
 #include <stdbool.h>

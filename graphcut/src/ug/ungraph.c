@@ -6,9 +6,9 @@
  *      Author: david
  */
 
-#include "ungraph.h"
-#include "../utils/mathutils.h"
-#include "../gmgt/graphmgt.h"
+#include <ug/ungraph.h>
+#include <utils/mathutils.h>
+#include <gmgt/graphmgt.h>
 
 
 /**

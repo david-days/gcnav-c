@@ -6,8 +6,8 @@
 #define GCNAV_C_UNGRAPH_H
 
 
-#include "../graphstructs.h"
-#include "../structs/unionfind.h"
+#include <graphstructs.h>
+#include <structs/unionfind.h>
 
 #include <stdlib.h>
 #include <stdbool.h>

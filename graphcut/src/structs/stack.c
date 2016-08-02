@@ -4,7 +4,7 @@
  *  Created on: Oct 19, 2013
  *      Author: david
  */
-#include "stack.h"
+#include <structs/stack.h>
 
 /**
  * Push the given node onto the stack, returning a pointer to the new top of the stack.

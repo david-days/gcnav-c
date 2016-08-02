@@ -5,7 +5,7 @@
  *      Author: david
  */
 
-#include "unionfind.h"
+#include <structs/unionfind.h>
 
 /**
  * The UnionFind operations handle all operations relating to the

@@ -6,7 +6,7 @@
 #define GCNAV_C_UNIONFIND_H
 
 
-#include "../graphstructs.h"
+#include <graphstructs.h>
 
 #include <stdbool.h>
 #include <stdlib.h>
