@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/GCNavConfig.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/dg/digraph.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/dg/digraph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/gmgt/graphmgt.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/gmgt/graphmgt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/graphcut.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/utils/edgeutils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/utils/mathutils.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/utils/mathutils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/utils/edgeutils.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/unionfind.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/queue.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/unionfind.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/stack.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/queue.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/stack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/ug/ungraph.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/ug/ungraph.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/graphcut.c" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/graphstructs.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut/GraphcutConfig.h.in" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file:///usr/lib/gcc/i686-redhat-linux/6.1.1/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/Debug0" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/Release0" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/RelWithDebInfo0" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/MinSizeRel0" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file:///usr/lib/gcc/i686-redhat-linux/6.1.1/include" />
+          <root url="file:///usr/include" />
+          <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/Debug0" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/Release0" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/RelWithDebInfo0" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-9510e0c/9510e0c/MinSizeRel0" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>
