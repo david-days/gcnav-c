@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(graphcut)
 
-set (PROJECT_INCLUDE_DIR ${PROJECT_SOURCE_DIR}/include)
+set (PROJECT_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 set (PROJECT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # Set version numbers

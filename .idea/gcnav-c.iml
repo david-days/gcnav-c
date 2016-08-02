@@ -3,28 +3,10 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/GCNavConfig.h.in" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/guidance" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/sensors" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/dg/digraph.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/gmgt/graphmgt.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/utils/mathutils.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/utils/edgeutils.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/queue.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/unionfind.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/structs/stack.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/ug/ungraph.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/src/graphcut.c" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/dg/digraph.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/gmgt/graphmgt.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/utils/edgeutils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/utils/mathutils.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/structs/unionfind.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/structs/stack.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/structs/queue.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/ug/ungraph.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/GraphcutConfig.h.in" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/graphcut.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/include/graphstructs.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/graphcut/CMakeLists.txt" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/graphcut" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
