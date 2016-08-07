@@ -22,25 +22,25 @@ include_directories("${PROJECT_BINARY_DIR}")
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99 -Wall")
 
 set(SOURCE_FILES
-        ${PROJECT_INCLUDE_DIR}/graphcut.h
-        ${PROJECT_INCLUDE_DIR}/graphstructs.h
-        ${PROJECT_SOURCE_DIR}/graphcut.c
-        ${PROJECT_SOURCE_DIR}/utils/mathutils.c
-        ${PROJECT_INCLUDE_DIR}/utils/mathutils.h
-        ${PROJECT_SOURCE_DIR}/utils/edgeutils.c
-        ${PROJECT_INCLUDE_DIR}/utils/edgeutils.h
-        ${PROJECT_SOURCE_DIR}/ug/ungraph.c 
-        ${PROJECT_INCLUDE_DIR}/ug/ungraph.h
-        ${PROJECT_SOURCE_DIR}/structs/queue.c 
-        ${PROJECT_INCLUDE_DIR}/structs/queue.h
-        ${PROJECT_SOURCE_DIR}/structs/stack.c 
-        ${PROJECT_INCLUDE_DIR}/structs/stack.h
-        ${PROJECT_SOURCE_DIR}/structs/unionfind.c 
-        ${PROJECT_INCLUDE_DIR}/structs/unionfind.h
-        ${PROJECT_SOURCE_DIR}/gmgt/graphmgt.c 
-        ${PROJECT_INCLUDE_DIR}/gmgt/graphmgt.h
-        ${PROJECT_SOURCE_DIR}/dg/digraph.c 
-        ${PROJECT_INCLUDE_DIR}/dg/digraph.h
+        include/graphcut.h
+        include/graphstructs.h
+        src/graphcut.c
+        src/utils/mathutils.c
+        include/utils/mathutils.h
+        src/utils/edgeutils.c
+        include/utils/edgeutils.h
+        src/ug/ungraph.c
+        include/ug/ungraph.h
+        src/structs/queue.c
+        include/structs/queue.h
+        src/structs/stack.c
+        include/structs/stack.h
+        src/structs/unionfind.c
+        include/structs/unionfind.h
+        src/gmgt/graphmgt.c
+        include/gmgt/graphmgt.h
+        src/dg/digraph.c
+        include/dg/digraph.h
 )
 
 

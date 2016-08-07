@@ -6,6 +6,7 @@
       <file path="$PROJECT_DIR$/graphcut" />
       <file path="$PROJECT_DIR$/guidance" />
       <file path="$PROJECT_DIR$/sensors" />
+      <file path="$PROJECT_DIR$/tests" />
     </sourceRoots>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
