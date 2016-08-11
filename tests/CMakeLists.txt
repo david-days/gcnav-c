@@ -5,7 +5,7 @@ set (PROJECT_INCLUDE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/include)
 set (PROJECT_SOURCE_DIR ${CMAKE_CURRENT_SOURCE_DIR}/src)
 
 # Copy test data files
-configure_file(data ${CMAKE_CURRENT_BINARY_DIR}/data COPYONLY)
+file(COPY data DESTINATION ${CMAKE_CURRENT_BINARY_DIR}/data)
 
 # Set version numbers
 set (GCTEST_VERSION_MAJOR 1)

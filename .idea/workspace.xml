@@ -42,216 +42,9 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="932d6808-135d-46b0-8c86-fa46ddfe026e" name="Default" comment="CMakeLists.txt for sensors and guidance subprojects">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scenariolist.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene0/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene1/walls.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/radar1.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene10/radar2.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/dironly.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene11/rangeonly.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene12/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene12/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene13/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene14/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene14/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene15/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene16/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene16/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene17/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene18/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene18/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene19/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene2/spots.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene20/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene20/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene21/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene21/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene22/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene22/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene23/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene23/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene24/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene24/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene25/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene25/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene26/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene26/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene27/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene27/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene28/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene28/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene29/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene29/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/hooks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene3/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene30/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene30/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene31/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene31/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene32/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene32/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/hooks.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene4/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene5/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene6/radar.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene7/walls.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene8/sonar.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/graphparams" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/inputlist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxflow.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxnpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxnpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxtpost.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxtpre.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/pathplot.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/postparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/scene9/preparent.dat" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/data/scenarios/solutiontimes.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gcnav-c.iml" afterPath="$PROJECT_DIR$/.idea/gcnav-c.iml" />
+    <list default="true" id="932d6808-135d-46b0-8c86-fa46ddfe026e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" afterPath="$PROJECT_DIR$/tests/CMakeLists.txt" />
     </list>
     <ignored path="gcnav-c.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -281,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphcut.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graphcut.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphcut/src/graphcut.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+            <state relative-caret-position="374">
+              <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -747,7 +550,7 @@
       <workItem from="1470164129897" duration="891000" />
       <workItem from="1470548284326" duration="5612000" />
       <workItem from="1470940521207" duration="923000" />
-      <workItem from="1470942265082" duration="110000" />
+      <workItem from="1470942265082" duration="457000" />
     </task>
     <task id="LOCAL-00001" summary="import of previous work as baseline">
       <created>1469789952084</created>
@@ -798,17 +601,24 @@
       <option name="project" value="LOCAL" />
       <updated>1470165025556</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Test scenarios from matlab implementation">
+      <created>1470942419525</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1470942419525</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28511000" />
+    <option name="totallyTimeSpent" value="28858000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21175279" sideWeight="0.46666667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -848,7 +658,8 @@
     <MESSAGE value="Fix includes and project structure" />
     <MESSAGE value="Remove const parameter declarations pending functional libary development." />
     <MESSAGE value="CMakeLists.txt for sensors and guidance subprojects" />
-    <option name="LAST_COMMIT_MESSAGE" value="CMakeLists.txt for sensors and guidance subprojects" />
+    <MESSAGE value="Test scenarios from matlab implementation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test scenarios from matlab implementation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1076,17 +887,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/graphcut/src/graphcut.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        <state relative-caret-position="374">
+          <caret line="110" column="0" selection-start-line="110" selection-start-column="0" selection-end-line="110" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/src/graphcut.c">
+    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
           <folding />
         </state>
       </provider>
