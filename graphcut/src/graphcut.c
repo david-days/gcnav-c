@@ -316,6 +316,13 @@ nedge * nborders() {
 }
 
 /**
+ * Add flow to a particular edge
+ */
+void addCapacity(size_t *u, size_t *v, double *capval) {
+
+}
+
+/**
  * Closes out the graph structure and frees up
  * all associated memory
  */

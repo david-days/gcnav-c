@@ -13,7 +13,8 @@
 
 enum GRAPHTYPE {
     UNDIRECTED=1,
-    DIRECTED=2
+    DIRECTED=2,
+    ARRAYGRAPH=3
 };
 
 
@@ -31,6 +32,7 @@ typedef struct nodepair nedge;
  * and contains the label designations created in the intialization.
  */
 extern size_t *labels;
+
 
 /**
  * Initialize the graph, using the size values that are given.
@@ -86,9 +88,31 @@ extern size_t * label(size_t *n);
 extern nedge * nborders();
 
 /**
+ * Add flow to a particular edge
+ */
+extern void addCapacity(size_t *u, size_t *v, double *capval);
+
+/**
  * Closes out the graph structure and frees up
  * all associated memory
  */
 extern void closeGraph();
+
+
+/**
+ * Pointer to a navigation graph structure
+ */
+extern agraph *navgraph;
+
+/**
+ * Initialize
+ * @param numnodes
+ * @param numlabels
+ * @return Pointer to the initialized arraygraph structure
+ */
+extern agraph *init2dNavGraph(size_t numnodes, size_t numlabels);
+
+
+
 
 #endif //GCNAV_C_BORDERCUT_H

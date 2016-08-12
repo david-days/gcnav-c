@@ -58,4 +58,19 @@ seg **neighbors;
  */
 size_t *parents;
 
+
+/**
+ * Struct used to hold reference to graph definition and state
+ */
+struct arraygraph {
+    size_t nnodes;
+    size_t nlabels;
+    size_t *labels;
+    size_t **edges;
+    double **capacities;
+    size_t *parents;
+};
+
+typedef struct arraygraph agraph;
+
 #endif //GCNAV_C_GRAPHSTRUCTS_H
