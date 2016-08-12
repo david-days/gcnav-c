@@ -6,10 +6,7 @@
  */
 
 #include <graphcut.h>
-
-//operations for different graph types
-#include <dg/digraph.h>
-#include <ug/ungraph.h>
+#include <graphstructs.h>
 
 //structures to run algorithm
 #include <structs/queue.h>
@@ -21,39 +18,49 @@
 #include <utils/mathutils.h>
 #include <gmgt/graphmgt.h>
 
-//type-dependent internal operations
-void (*gt_add_edge) (const size_t *u, const size_t *v, const double *cap);
-void (*gt_add_flow) (const size_t *u, const size_t *v, const double *flow);
-seg * (*gt_find_edge) (const size_t *u, const size_t *v);
-double (*gt_get_capacity) (const size_t *u, const size_t *v);
-void (*gt_augment_path) (seg *path, double *flow);
+
 
 //Internal data structures
-//dimensions of the graph
 /**
- * Number of non-label nodes in the graph
+ * Navigation graph structure
  */
-size_t nnodes;
-/**
- * Number of labels for the graph
- */
-size_t nlabels;
+agraph *navgraph;
 
 
-//graph states
 /**
- * Array pointer for the labels
+ * Create an arraygraph structure for 2D navigation with the given parameters
+ * @param xdim Width/Breadths of the graph
+ * @param ydim Height/Depth of the graph
+ * @return Pointer to the navgraph structure
  */
-size_t *labels;
-/**
- * Adjacency list for nodes
- */
-seg **neighbors;
-/**
- * Parents array
- */
-size_t *parents;
+agraph *init2dNavGraph(size_t xdim, size_t ydim){
+    navgraph = malloc(sizeof(agraph));
+    if (navgraph == NULL) exit(1);
+    size_t *dimarr = malloc(sizeof(size_t)*2);
+    if (dimarr == NULL) exit(1);
+    dimarr[0] = xdim;
+    dimarr[1] = ydim;
+    //Total number of nodes is width*height + 2 label nodes
+    size_t numnodes = xdim*ydim;
 
+    //Fill the navgraph structure with basic dimensional data
+    navgraph->numdimensions = 2;
+    navgraph->dimensions = dimarr;
+    navgraph->ntype = TWO_DIMENSIONAL;
+    navgraph->nnodes = numnodes;
+
+    //Create and fill the labels array
+    size_t *labarr = malloc(sizeof(size_t)*2);
+    if (labarr == NULL) exit(1);
+    labarr[0] = numnodes;
+    labarr[1] = numnodes+1;
+    navgraph->nlabels = 2;
+    navgraph->labels = labarr;
+
+   initNavGraph(navgraph);
+
+    return navgraph;
+}
 
 /**
  * Returns a linked-list of _all_ edges
@@ -195,33 +202,6 @@ static void breakTrees() {
 		}
 	}
 }
-/**
- * Initialize the graph, using the size values that are given.
- *
- * The nodes will be represented by a zero-based array of length nodes.
- *
- * parameter nodes:  # of non-label nodes in the graph
- * parameter labels: # number of label values for this graph
- */
-void initGraph(size_t nodes, size_t labels, enum GRAPHTYPE gt) {
-	switch (gt) {
-	case DIRECTED:
-		gt_add_edge = dg_addEdge;
-		gt_add_flow = dg_addFlow;
-		gt_find_edge = dg_findEdge;
-		gt_get_capacity = dg_getCapacity;
-		gt_augment_path = dg_augmentPath;
-		break;
-	case UNDIRECTED:
-		gt_add_edge = ug_addEdge;
-		gt_find_edge = ug_findEdge;
-		gt_add_flow = ug_addFlow;
-		gt_get_capacity = ug_getCapacity;
-		gt_augment_path = ug_augmentPath;
-		break;
-	};
-	initStructures(nodes,labels);
-}
 
 
 /**
@@ -327,10 +307,5 @@ void addCapacity(size_t *u, size_t *v, double *capval) {
  * all associated memory
  */
 void closeGraph() {
-	destroyGraph();
-	gt_add_edge = NULL;
-	gt_add_flow = NULL;
-	gt_find_edge = NULL;
-	gt_get_capacity = NULL;
-
+	destroyGraph(navgraph);
 }

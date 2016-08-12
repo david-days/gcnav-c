@@ -8,6 +8,24 @@
 #include <stdlib.h>
 
 
+/**
+ * Graph type designation
+ */
+enum GRAPHTYPE {
+    UNDIRECTED=1,
+    DIRECTED=2,
+    ARRAYGRAPH=3
+};
+
+/**
+ * Navigation Problem Type
+ */
+enum NAVTYPE {
+    TWO_DIMENSIONAL = 1,
+    THREE_DIMENSIONAL = 2,
+    FOUR_DIMENSIONAL = 4
+};
+
 /*
  * Basic structure to hold edge and path data
  */
@@ -33,36 +51,16 @@ struct nodeitem {
 
 typedef struct nodeitem node;
 
-//dimensions of the graph
-/**
- * Number of non-label nodes in the graph
- */
-size_t nnodes;
-/**
- * Number of labels for the graph
- */
-size_t nlabels;
-
-
 //graph states
-/**
- * Array pointer for the labels
- */
-size_t *labels;
-/**
- * Adjacency list for nodes
- */
-seg **neighbors;
-/**
- * Parents array
- */
-size_t *parents;
-
 
 /**
  * Struct used to hold reference to graph definition and state
  */
 struct arraygraph {
+    enum NAVTYPE ntype;
+    double azimuth;
+    size_t numdimensions;
+    size_t *dimensions;
     size_t nnodes;
     size_t nlabels;
     size_t *labels;
@@ -71,6 +69,8 @@ struct arraygraph {
     size_t *parents;
 };
 
+
 typedef struct arraygraph agraph;
+
 
 #endif //GCNAV_C_GRAPHSTRUCTS_H

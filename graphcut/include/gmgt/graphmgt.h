@@ -9,26 +9,36 @@
 #include <graphstructs.h>
 
 #include <stdlib.h>
-/*
- * Initialize the necessary structures
- */
-void initStructures(size_t numnodes, size_t numlabels);
 
-/*
- * Create the given edge and insert it into the neighbors array
- */
-void createAndInsert(const size_t *u, const size_t *v, const double *cap);
-
-/*
- * Destroy the structures cleanly, cleaning up the memory
- */
-void destroyGraph();
 
 /**
- * Remove zero-capacity t-links from the graph in order to reduce processing time.
- * returns:  count of edges removed
+ * Fill in the data structures for the navigation graph
+ * @param navgraph Pointer to navigation graph structure to be initialized
  */
-size_t pruneGraph();
+void initNavGraph(agraph *navgraph);
+
+
+/**
+ * Reset the graph values (edge cacities) to zero
+ * @param navgraph Graph structure to be reset
+ */
+void resetGraph(agraph *navgraph);
+
+
+/**
+ * Destroy the graph structure, cleaning up all memory usage and setting all references to null
+ * @param navgraph Graph structure whose memory should be freed
+ */
+void destroyGraph(agraph *navgraph);
+
+/**
+ * Add the given value (
+ * @param u Pointer to edge beginning identifier
+ * @param v  Pointer to edge ending identifire
+ * @param capval Capacity value to be added
+ * @param navgraph  Graph structure to be manipulated
+ */
+void addCapacity(size_t *u, size_t *v, double *capval, agraph *navgraph);
 
 
 #endif //GCNAV_C_GRAPHMGT_H

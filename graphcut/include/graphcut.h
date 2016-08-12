@@ -11,12 +11,6 @@
 
 #include <stdlib.h>
 
-enum GRAPHTYPE {
-    UNDIRECTED=1,
-    DIRECTED=2,
-    ARRAYGRAPH=3
-};
-
 
 struct nodepair {
     size_t u;
@@ -26,34 +20,8 @@ struct nodepair {
 
 typedef struct nodepair nedge;
 
-/**
- * Pointer to label array created after initializing the graph.
- * This array is the same size as the labels value passed to the initialize function
- * and contains the label designations created in the intialization.
- */
-extern size_t *labels;
 
 
-/**
- * Initialize the graph, using the size values that are given.
- *
- * The nodes will be represented by a zero-based array of length nodes.
- *
- * parameter nodes:  # of non-label nodes in the graph
- * parameter labels: # number of label values for this graph
- */
-extern void initGraph(size_t nodes, size_t labels, enum GRAPHTYPE gt);
-
-/**
- * Add the given edge to the graph structure.
- *
- * Node identifiers are zero-based index values.
- *
- * parameter u: pointer to node at one end of the edge for the graph
- * parameter v: pointer to node at the opposing end of the edge
- * parameter capacity: pointer to initial capacity for the graph.
- */
-extern void insertEdge(size_t *u, size_t *v, double *capacity);
 
 /**
  * Find the max-flow/min-cut solution to the graph
@@ -110,7 +78,7 @@ extern agraph *navgraph;
  * @param numlabels
  * @return Pointer to the initialized arraygraph structure
  */
-extern agraph *init2dNavGraph(size_t numnodes, size_t numlabels);
+extern agraph *init2dNavGraph(size_t xdim, size_t ydim);
 
 
 
