@@ -44,11 +44,6 @@
   <component name="ChangeListManager">
     <list default="true" id="932d6808-135d-46b0-8c86-fa46ddfe026e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h" afterPath="$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/graphcut.h" afterPath="$PROJECT_DIR$/graphcut/include/graphcut.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/graphstructs.h" afterPath="$PROJECT_DIR$/graphcut/include/graphstructs.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c" afterPath="$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/graphcut.c" afterPath="$PROJECT_DIR$/graphcut/src/graphcut.c" />
     </list>
     <ignored path="gcnav-c.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -83,7 +78,7 @@
       <file leaf-file-name="graphmgt.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="408">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding>
                 <element signature="e#75#101#0" expanded="true" />
@@ -757,7 +752,7 @@
       <workItem from="1470164129897" duration="891000" />
       <workItem from="1470548284326" duration="5612000" />
       <workItem from="1470940521207" duration="923000" />
-      <workItem from="1470942265082" duration="11425000" />
+      <workItem from="1470942265082" duration="12087000" />
     </task>
     <task id="LOCAL-00001" summary="import of previous work as baseline">
       <created>1469789952084</created>
@@ -829,11 +824,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470968114191</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Conversion to array-based, undirected graph structures for efficiency.">
+      <created>1470981217960</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1470981217960</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39826000" />
+    <option name="totallyTimeSpent" value="40488000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-8" width="1936" height="1096" extended-state="6" />
@@ -882,7 +884,8 @@
     <MESSAGE value="Test scenarios from matlab implementation" />
     <MESSAGE value="Update test data copy command" />
     <MESSAGE value="Array-based nav graph start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Array-based nav graph start" />
+    <MESSAGE value="Conversion to array-based, undirected graph structures for efficiency." />
+    <option name="LAST_COMMIT_MESSAGE" value="Conversion to array-based, undirected graph structures for efficiency." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1134,7 +1137,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="408">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="e#75#101#0" expanded="true" />
