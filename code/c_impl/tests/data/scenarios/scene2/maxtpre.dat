@@ -1,0 +1,11 @@
+# Created by Octave 4.0.0, Tue Sep 08 13:36:03 2015 Eastern Daylight Time <unknown@Loki>
+# name: maxtpre
+# type: matrix
+# rows: 4
+# columns: 4
+ 0.64 6.02 0.64 0.64
+ 6.01 6.02 6.01 0.48
+ 0.5333333333333334 6.01 0.5333333333333334 6.02
+ 0.8 0.8 6.03 6.03
+
+
