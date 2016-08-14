@@ -1,0 +1,15 @@
+# Created by Octave 4.0.0, Tue Sep 08 13:39:27 2015 Eastern Daylight Time <unknown@Loki>
+# name: postparent
+# type: matrix
+# rows: 8
+# columns: 8
+ 65 65 65 65 65 65 65 65
+ 65 65 12 13 65 65 65 65
+ 65 19 20 21 13 21 65 32
+ 65 27 28 29 21 29 32 40
+ 66 66 27 28 29 66 40 48
+ 66 50 51 66 66 66 48 66
+ 57 51 66 51 52 66 66 48
+ 66 66 58 59 66 66 66 66
+
+
