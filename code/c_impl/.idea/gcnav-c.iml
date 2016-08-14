@@ -13,18 +13,18 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/Release" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/Debug" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/MinSizeRel" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/RelWithDebInfo" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/MinSizeRel" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/RelWithDebInfo" />
           <root url="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/5.4.0/include" />
           <root url="file://C:/cygwin64/usr/include" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/Release" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/Debug" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/MinSizeRel" />
-          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/gcnav-c-85bfa8b9/85bfa8b9/RelWithDebInfo" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/MinSizeRel" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Debug" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Release" />
+          <root url="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/RelWithDebInfo" />
           <root url="file://C:/cygwin64/lib/gcc/x86_64-pc-cygwin/5.4.0/include" />
           <root url="file://C:/cygwin64/usr/include" />
         </SOURCES>

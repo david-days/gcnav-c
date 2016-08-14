@@ -28,6 +28,7 @@ enum NAVTYPE {
 
 /*
  * Basic structure to hold edge and path data
+ * Linked-list structure to pass around references to edges
  */
 struct edge {
     struct edge *next;
@@ -55,18 +56,17 @@ typedef struct nodeitem node;
 
 /**
  * Struct used to hold reference to graph definition and state
+ * TODO:  Initially set up for 2D cartesian graph coordinates.  Need to change to n-dimensional in next iteration or so.
  */
 struct arraygraph {
-    enum NAVTYPE ntype;
-    double azimuth;
-    size_t numdimensions;
-    size_t *dimensions;
-    size_t nnodes;
-    size_t nlabels;
-    size_t *labels;
-    size_t **edges;
-    double **capacities;
-    size_t *parents;
+    size_t numdimensions; //Number of dimensions in graph structure
+    size_t *dimensions; //sizes of the array in whole unites
+    size_t nnodes;  //number of in-graph vertices
+    size_t nlabels; //number of label nodes
+    size_t *labels; //array of label entries
+    size_t **edges; //edge adjacency arrays
+    double **capacities; //capacity adjacency arrays
+    size_t *parents; //tree tracking array
 };
 
 

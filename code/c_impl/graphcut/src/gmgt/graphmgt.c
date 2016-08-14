@@ -75,7 +75,7 @@ void initNavGraph(agraph *navgraph) {
 }
 
 /**
- * Reset the graph values (edge cacities) to zero
+ * Reset the graph values (edge capacities) to zero
  * @param navgraph Graph structure to be reset
  */
 void resetGraph(agraph *navgraph) {

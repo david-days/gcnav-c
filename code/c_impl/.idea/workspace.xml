@@ -43,7 +43,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="932d6808-135d-46b0-8c86-fa46ddfe026e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gcnav-c.iml" afterPath="$PROJECT_DIR$/.idea/gcnav-c.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h" afterPath="$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/graphstructs.h" afterPath="$PROJECT_DIR$/graphcut/include/graphstructs.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/utils/edgeutils.h" afterPath="$PROJECT_DIR$/graphcut/include/utils/edgeutils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/utils/mathutils.h" afterPath="$PROJECT_DIR$/graphcut/include/utils/mathutils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c" afterPath="$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/utils/edgeutils.c" afterPath="$PROJECT_DIR$/graphcut/src/utils/edgeutils.c" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/utils/mathutils.c" afterPath="$PROJECT_DIR$/graphcut/src/utils/mathutils.c" />
     </list>
     <ignored path="gcnav-c.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -66,8 +75,8 @@
       <file leaf-file-name="graphmgt.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#95#120#0" expanded="true" />
               </folding>
@@ -75,11 +84,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphmgt.c" pinned="false" current-in-tab="true">
+      <file leaf-file-name="graphmgt.c" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+            <state relative-caret-position="391">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
                 <element signature="e#75#101#0" expanded="true" />
               </folding>
@@ -90,8 +99,8 @@
       <file leaf-file-name="edgeutils.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphcut/include/utils/edgeutils.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+            <state relative-caret-position="425">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -100,9 +109,33 @@
       <file leaf-file-name="mathutils.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphcut/include/utils/mathutils.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="255">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mathutils.c" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graphcut/src/utils/mathutils.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="850">
+              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
+              <folding>
+                <element signature="e#78#97#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edgeutils.c" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphcut/src/utils/edgeutils.c">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="629">
+              <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+              <folding>
+                <element signature="e#77#105#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,35 +143,9 @@
       <file leaf-file-name="graphstructs.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graphcut/include/graphstructs.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+            <state relative-caret-position="313">
+              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphcut.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/include/graphcut.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-180">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-              <folding>
-                <element signature="e#97#122#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphcut.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/src/graphcut.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5270">
-              <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
-              <folding>
-                <element signature="e#76#97#0" expanded="true" />
-                <element signature="e#155#181#0" expanded="true" />
-                <element signature="e#261#289#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -152,7 +159,7 @@
         <option value="david.c.days@gmail.com" />
       </list>
     </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
         <entry key="$PROJECT_DIR$" value="master" />
@@ -184,12 +191,9 @@
         <option value="$PROJECT_DIR$/bordercut.c" />
         <option value="$PROJECT_DIR$/License.txt" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/graphcut/src/utils/mathutils.c" />
-        <option value="$PROJECT_DIR$/graphcut/src/utils/edgeutils.c" />
         <option value="$PROJECT_DIR$/graphcut/src/structs/unionfind.c" />
         <option value="$PROJECT_DIR$/graphcut/src/structs/stack.c" />
         <option value="$PROJECT_DIR$/graphcut/src/structs/queue.c" />
-        <option value="$PROJECT_DIR$/graphcut/include/utils/edgeutils.h" />
         <option value="$PROJECT_DIR$/graphcut/include/structs/unionfind.h" />
         <option value="$PROJECT_DIR$/graphcut/include/structs/stack.h" />
         <option value="$PROJECT_DIR$/graphcut/include/structs/queue.h" />
@@ -203,11 +207,15 @@
         <option value="$PROJECT_DIR$/tests/src/testrunner.c" />
         <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/graphcut/include/dg/digraph.h" />
-        <option value="$PROJECT_DIR$/graphcut/include/graphstructs.h" />
         <option value="$PROJECT_DIR$/graphcut/src/graphcut.c" />
         <option value="$PROJECT_DIR$/graphcut/include/graphcut.h" />
+        <option value="$PROJECT_DIR$/graphcut/src/utils/edgeutils.c" />
         <option value="$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h" />
         <option value="$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c" />
+        <option value="$PROJECT_DIR$/graphcut/include/utils/edgeutils.h" />
+        <option value="$PROJECT_DIR$/graphcut/include/graphstructs.h" />
+        <option value="$PROJECT_DIR$/graphcut/include/utils/mathutils.h" />
+        <option value="$PROJECT_DIR$/graphcut/src/utils/mathutils.c" />
       </list>
     </option>
   </component>
@@ -253,27 +261,27 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -283,65 +291,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -351,11 +305,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -365,11 +319,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -379,11 +333,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -397,11 +351,33 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphcut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c_impl" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -419,33 +395,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphcut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dg" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -459,11 +413,11 @@
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
+              <option name="myItemId" value="c_impl" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -479,59 +433,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphcut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ug" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gcnav-c" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="graphcut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gmgt" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../.." />
     <property name="js-jscs-nodeInterpreter" value="/bin/node" />
-    <property name="settings.editor.selected.configurable" value="diff.external" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
   <component name="RecentsManager">
@@ -753,6 +663,7 @@
       <workItem from="1470548284326" duration="5612000" />
       <workItem from="1470940521207" duration="923000" />
       <workItem from="1470942265082" duration="12087000" />
+      <workItem from="1471136442413" duration="2343000" />
     </task>
     <task id="LOCAL-00001" summary="import of previous work as baseline">
       <created>1469789952084</created>
@@ -835,7 +746,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40488000" />
+    <option name="totallyTimeSpent" value="42831000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-8" width="1936" height="1096" extended-state="6" />
@@ -846,7 +757,6 @@
       <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21175279" sideWeight="0.46666667" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18338399" sideWeight="0.5052083" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.49479166" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -858,6 +768,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.49479166" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -912,13 +823,7 @@
     <entry file="file://$PROJECT_DIR$/structs/stack.h" />
     <entry file="file://$PROJECT_DIR$/structs/queue.h" />
     <entry file="file://$PROJECT_DIR$/GCNavConfig.h.in" />
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/License.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
@@ -930,13 +835,6 @@
     <entry file="file://$PROJECT_DIR$/bordercut.h" />
     <entry file="file://$PROJECT_DIR$/graphcut/src/graphstructs.h" />
     <entry file="file://$PROJECT_DIR$/graphcut/src/graphcut.h" />
-    <entry file="file://$PROJECT_DIR$/graphcut/src/utils/mathutils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphcut/src/structs/unionfind.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -986,13 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/src/utils/edgeutils.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/graphcut/src/dg/digraph.c">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
@@ -1039,7 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1048,7 +938,7 @@
         <state relative-caret-position="204">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding>
-            <element signature="e#93#118#0" expanded="true" />
+            <element signature="e#93#118#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1067,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
           <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1079,27 +968,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/include/graphstructs.h">
+    <entry file="file://$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/include/graphcut.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
-            <element signature="e#97#122#0" expanded="true" />
+            <element signature="e#95#120#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graphcut/src/graphcut.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5270">
+        <state relative-caret-position="925">
           <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
           <folding>
             <element signature="e#76#97#0" expanded="true" />
@@ -1109,38 +990,66 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h">
+    <entry file="file://$PROJECT_DIR$/graphcut/include/graphcut.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="2" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+        <state relative-caret-position="17">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#95#120#0" expanded="true" />
+            <element signature="e#97#122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#75#101#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/src/utils/edgeutils.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
+          <folding>
+            <element signature="e#77#105#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graphcut/include/utils/edgeutils.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        <state relative-caret-position="425">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/include/graphstructs.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graphcut/include/utils/mathutils.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="255">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
+    <entry file="file://$PROJECT_DIR$/graphcut/src/utils/mathutils.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+        <state relative-caret-position="850">
+          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
           <folding>
-            <element signature="e#75#101#0" expanded="true" />
+            <element signature="e#78#97#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -7,13 +7,12 @@
 
 
 #include <graphstructs.h>
-
 #include <stdlib.h>
 
 
 /**
  * Fill in the data structures for the navigation graph
- * @param navgraph Pointer to navigation graph structure to be initialized
+ * @param navgraph Pointer to navigation graph structure to be initialized.  Minimal information required is the dimensionality, the dimensions of the graph field, and the number of labels.
  */
 void initNavGraph(agraph *navgraph);
 

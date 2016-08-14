@@ -8,17 +8,21 @@
 
 #include <graphstructs.h>
 
-/*
- * Given a list of edge segments, return
- * the minimum available capacity value.
- *
+/**
+ * Return the min available value along a path represented by *path
+ * @param path Linked-list of segments representing a path between two nodes
+ * @return Double value of the minimum available along the path
  */
 double minAvailable(seg *path);
 
-/*
- * Free up the given linked list of segments
+
+
+/**
+ * Free up the memory held by the elements of the linked-list path representation
+ * @param path Linked-list representation of path between two nodes
  */
 void freePath(seg *path);
+
 
 
 #endif //GCNAV_C_EDGEUTILS_H
