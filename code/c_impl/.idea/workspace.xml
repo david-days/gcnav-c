@@ -43,9 +43,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="932d6808-135d-46b0-8c86-fa46ddfe026e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gcnav-c.iml" afterPath="$PROJECT_DIR$/.idea/gcnav-c.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/Makefile" afterPath="$PROJECT_DIR$/graphcut/Makefile" />
     </list>
     <ignored path="gcnav-c.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -328,6 +326,7 @@
     <property name="js-jscs-nodeInterpreter" value="/bin/node" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -568,7 +567,7 @@
       <workItem from="1470548284326" duration="5612000" />
       <workItem from="1470940521207" duration="923000" />
       <workItem from="1470942265082" duration="4349000" />
-      <workItem from="1472932605528" duration="2437000" />
+      <workItem from="1472932605528" duration="2468000" />
     </task>
     <task id="LOCAL-00001" summary="import of previous work as baseline">
       <created>1469789952084</created>
@@ -633,11 +632,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470942757465</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Working on Makefile">
+      <created>1472943733252</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1472943733252</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35187000" />
+    <option name="totallyTimeSpent" value="35218000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-8" width="1936" height="1096" extended-state="6" />
@@ -685,7 +691,8 @@
     <MESSAGE value="CMakeLists.txt for sensors and guidance subprojects" />
     <MESSAGE value="Test scenarios from matlab implementation" />
     <MESSAGE value="Update test data copy command" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update test data copy command" />
+    <MESSAGE value="Working on Makefile" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on Makefile" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
