@@ -43,6 +43,9 @@ set(SOURCE_FILES
         include/dg/digraph.h
 )
 
+add_subdirectory(test)
+
+
 
 # Create shared library
 add_library(graphcut SHARED ${SOURCE_FILES})

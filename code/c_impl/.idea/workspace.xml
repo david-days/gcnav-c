@@ -26,14 +26,47 @@
   </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" assignedExecutableTargets="true" buildAllGenerated="true">
     <generated>
-      <config projectName="gcnav_c" targetName="gcnav_c" />
-      <config projectName="gcnav_c" targetName="bordercut" />
-      <config projectName="gcnav_c" targetName="gcnav" />
+      <config projectName="gcnav" targetName="gmock" />
       <config projectName="gcnav_c" targetName="iiiii" />
+      <config projectName="gcnav" targetName="NightlyUpdate" />
+      <config projectName="gcnav" targetName="gtest_main" />
+      <config projectName="gcnav_c" targetName="gcnav" />
       <config projectName="gcnav" targetName="gcnav-test" />
-      <config projectName="gcnav" targetName="graphcut" />
-      <config projectName="gcnav" targetName="gcnav-guidance" />
+      <config projectName="gcnav" targetName="Nightly" />
+      <config projectName="gcnav" targetName="runUnitTests" />
+      <config projectName="gcnav" targetName="ExperimentalUpdate" />
+      <config projectName="gcnav" targetName="ContinuousUpdate" />
+      <config projectName="gcnav" targetName="NightlyCoverage" />
+      <config projectName="gcnav_c" targetName="gcnav_c" />
+      <config projectName="gcnav" targetName="ContinuousTest" />
+      <config projectName="gcnav" targetName="gtest" />
       <config projectName="gcnav" targetName="gcnav-sensors" />
+      <config projectName="gcnav" targetName="ContinuousSubmit" />
+      <config projectName="gcnav" targetName="ContinuousStart" />
+      <config projectName="gcnav" targetName="Continuous" />
+      <config projectName="gcnav" targetName="NightlyMemoryCheck" />
+      <config projectName="gcnav" targetName="ContinuousConfigure" />
+      <config projectName="gcnav" targetName="ExperimentalMemCheck" />
+      <config projectName="gcnav_c" targetName="bordercut" />
+      <config projectName="gcnav" targetName="graphcut" />
+      <config projectName="gcnav" targetName="gmock_main" />
+      <config projectName="gcnav" targetName="gcnav-guidance" />
+      <config projectName="gcnav" targetName="NightlyStart" />
+      <config projectName="gcnav" targetName="ContinuousMemCheck" />
+      <config projectName="gcnav" targetName="ExperimentalBuild" />
+      <config projectName="gcnav" targetName="NightlyBuild" />
+      <config projectName="gcnav" targetName="ExperimentalStart" />
+      <config projectName="gcnav" targetName="ExperimentalCoverage" />
+      <config projectName="gcnav" targetName="NightlyMemCheck" />
+      <config projectName="gcnav" targetName="NightlySubmit" />
+      <config projectName="gcnav" targetName="Experimental" />
+      <config projectName="gcnav" targetName="ContinuousCoverage" />
+      <config projectName="gcnav" targetName="NightlyTest" />
+      <config projectName="gcnav" targetName="ContinuousBuild" />
+      <config projectName="gcnav" targetName="ExperimentalConfigure" />
+      <config projectName="gcnav" targetName="NightlyConfigure" />
+      <config projectName="gcnav" targetName="ExperimentalSubmit" />
+      <config projectName="gcnav" targetName="ExperimentalTest" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -42,16 +75,224 @@
     </ADDITIONAL_GENERATION_ENVIRONMENT>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="932d6808-135d-46b0-8c86-fa46ddfe026e" name="Default" comment="">
+    <list default="true" id="932d6808-135d-46b0-8c86-fa46ddfe026e" name="Default" comment="Working on testing, and adding manually creating Makefiles for non-CLion development and Continual Integration setup">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphcut/Makefile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphcut/test/CMakeLists.txt" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/CMakeLists.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scenariolist.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene0/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene1/walls.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/radar1.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene10/radar2.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/dironly.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene11/rangeonly.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene12/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene12/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene13/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene14/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene14/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene15/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene16/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene16/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene17/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene18/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene18/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene19/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene2/spots.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene20/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene20/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene21/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene21/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene22/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene22/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene23/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene23/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene24/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene24/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene25/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene25/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene26/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene26/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene27/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene27/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene28/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene28/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene29/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene29/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/hooks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene3/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene30/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene30/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene31/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene31/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene32/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene32/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/hooks.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene4/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene5/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene6/radar.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene7/walls.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene8/sonar.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/graphparams" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/inputlist" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxflow.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxnpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxnpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxtpost.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/maxtpre.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/pathplot.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/postparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/scene9/preparent.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/data/scenarios/solutiontimes.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/include/gctest.h" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/tests/src/testrunner.c" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gcnav-c.iml" afterPath="$PROJECT_DIR$/.idea/gcnav-c.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h" afterPath="$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/graphstructs.h" afterPath="$PROJECT_DIR$/graphcut/include/graphstructs.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/utils/edgeutils.h" afterPath="$PROJECT_DIR$/graphcut/include/utils/edgeutils.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CMakeLists.txt" afterPath="$PROJECT_DIR$/CMakeLists.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/CMakeLists.txt" afterPath="$PROJECT_DIR$/graphcut/CMakeLists.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/include/utils/mathutils.h" afterPath="$PROJECT_DIR$/graphcut/include/utils/mathutils.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c" afterPath="$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/utils/edgeutils.c" afterPath="$PROJECT_DIR$/graphcut/src/utils/edgeutils.c" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graphcut/src/utils/mathutils.c" afterPath="$PROJECT_DIR$/graphcut/src/utils/mathutils.c" />
     </list>
     <ignored path="gcnav-c.iws" />
@@ -72,45 +313,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="graphmgt.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/include/gmgt/graphmgt.h">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-              <folding>
-                <element signature="e#95#120#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphmgt.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-              <folding>
-                <element signature="e#75#101#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edgeutils.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/include/utils/edgeutils.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mathutils.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/include/utils/mathutils.h">
+      <file leaf-file-name="Makefile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphcut/Makefile">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -119,32 +336,18 @@
       <file leaf-file-name="mathutils.c" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graphcut/src/utils/mathutils.c">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="850">
-              <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-              <folding>
-                <element signature="e#78#97#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="550">
+              <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edgeutils.c" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/src/utils/edgeutils.c">
+      <file leaf-file-name="CMakeLists.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/graphcut/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="629">
-              <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
-              <folding>
-                <element signature="e#77#105#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graphstructs.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphcut/include/graphstructs.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="39" column="2" selection-start-line="39" selection-start-column="2" selection-end-line="39" selection-end-column="2" />
+            <state relative-caret-position="102">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -202,10 +405,7 @@
         <option value="$PROJECT_DIR$/graphcut/src/dg/digraph.c" />
         <option value="$PROJECT_DIR$/sensors/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/guidance/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/graphcut/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/tests/src/testrunner.c" />
-        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/graphcut/include/dg/digraph.h" />
         <option value="$PROJECT_DIR$/graphcut/src/graphcut.c" />
         <option value="$PROJECT_DIR$/graphcut/include/graphcut.h" />
@@ -215,6 +415,13 @@
         <option value="$PROJECT_DIR$/graphcut/include/utils/edgeutils.h" />
         <option value="$PROJECT_DIR$/graphcut/include/graphstructs.h" />
         <option value="$PROJECT_DIR$/graphcut/include/utils/mathutils.h" />
+        <option value="$PROJECT_DIR$/tests/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/graphcut/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/graphcut/test/CMakesLists.txt" />
+        <option value="$PROJECT_DIR$/graphcut/test/gtest.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/graphcut/test/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/graphcut/Makefile" />
         <option value="$PROJECT_DIR$/graphcut/src/utils/mathutils.c" />
       </list>
     </option>
@@ -285,35 +492,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c_impl" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c_impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sensors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c_impl" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c_impl" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guidance" />
+              <option name="myItemId" value="graphcut" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -328,6 +507,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="graphcut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -368,6 +551,50 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c_impl" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c_impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphcut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ug" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c_impl" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="c_impl" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="graphcut" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="structs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -407,29 +634,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c_impl" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="c_impl" />
+              <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="graphcut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="include" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
+              <option name="myItemId" value="dg" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -443,6 +652,7 @@
     <property name="js-jscs-nodeInterpreter" value="/bin/node" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="GO_FMT" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -453,13 +663,33 @@
       <recent name="$PROJECT_DIR$/graphcut/include" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Build All">
-    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav_c" TARGET_NAME="gcnav_c" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+  <component name="RunManager" selected="Application.graphcut">
+    <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav_c" TARGET_NAME="gcnav_c" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gcnav_c" RUN_TARGET_NAME="gcnav_c" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav_c" TARGET_NAME="gcnav_c" CONFIG_NAME="Debug">
       <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoRunFileConfiguration" factoryName="Go Single File">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GoTestRunConfiguration" factoryName="Go Test">
+      <module name="" />
+      <working_directory value="$PROJECT_DIR$" />
+      <framework value="gotest" />
+      <kind value="DIRECTORY" />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
@@ -615,32 +845,27 @@
       <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
+    <configuration default="false" name="Debug" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav" TARGET_NAME="graphcut" CONFIG_NAME="Debug">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="false" name="Build All" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" EXPLICIT_BUILD_TARGET_NAME="all">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="graphcut" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav" TARGET_NAME="graphcut" CONFIG_NAME="Debug">
+    <configuration default="false" name="graphcut" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav" TARGET_NAME="graphcut" CONFIG_NAME="Debug">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="gcnav-guidance" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav" TARGET_NAME="gcnav-guidance" CONFIG_NAME="Debug">
+    <configuration default="false" name="runUnitTests" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav" TARGET_NAME="runUnitTests" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gcnav" RUN_TARGET_NAME="runUnitTests" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="gcnav-sensors" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav" TARGET_NAME="gcnav-sensors" CONFIG_NAME="Debug">
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="gcnav-test" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="gcnav" TARGET_NAME="gcnav-test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="gcnav" RUN_TARGET_NAME="gcnav-test">
-      <envs />
-      <method />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
-      <item index="1" class="java.lang.String" itemvalue="Application.graphcut" />
-      <item index="2" class="java.lang.String" itemvalue="Application.gcnav-guidance" />
-      <item index="3" class="java.lang.String" itemvalue="Application.gcnav-sensors" />
-      <item index="4" class="java.lang.String" itemvalue="Application.gcnav-test" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Application.Debug" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Build All" />
+      <item index="2" class="java.lang.String" itemvalue="Application.graphcut" />
+      <item index="3" class="java.lang.String" itemvalue="Google Test.runUnitTests" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -663,7 +888,9 @@
       <workItem from="1470548284326" duration="5612000" />
       <workItem from="1470940521207" duration="923000" />
       <workItem from="1470942265082" duration="12087000" />
-      <workItem from="1471136442413" duration="2343000" />
+      <workItem from="1471136442413" duration="10437000" />
+      <workItem from="1471490028850" duration="1793000" />
+      <workItem from="1472871673366" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="import of previous work as baseline">
       <created>1469789952084</created>
@@ -742,11 +969,18 @@
       <option name="project" value="LOCAL" />
       <updated>1470981217960</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Updating documentation and implementing 2D coordinates">
+      <created>1471149231253</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1471149231253</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42831000" />
+    <option name="totallyTimeSpent" value="54548000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1352" y="-8" width="1936" height="1096" extended-state="6" />
@@ -754,23 +988,23 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17291667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21175279" sideWeight="0.46666667" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826748" sideWeight="0.48854166" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21175279" sideWeight="0.47395834" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TeamCity" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18338399" sideWeight="0.5052083" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32826748" sideWeight="0.51145834" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32826748" sideWeight="0.49479166" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -796,7 +1030,9 @@
     <MESSAGE value="Update test data copy command" />
     <MESSAGE value="Array-based nav graph start" />
     <MESSAGE value="Conversion to array-based, undirected graph structures for efficiency." />
-    <option name="LAST_COMMIT_MESSAGE" value="Conversion to array-based, undirected graph structures for efficiency." />
+    <MESSAGE value="Updating documentation and implementing 2D coordinates" />
+    <MESSAGE value="Working on testing, and adding manually creating Makefiles for non-CLion development and Continual Integration setup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working on testing, and adding manually creating Makefiles for non-CLion development and Continual Integration setup" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,23 +1041,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/utils/edgeutils.c" />
-    <entry file="file://$PROJECT_DIR$/utils/mathutils.h" />
-    <entry file="file://$PROJECT_DIR$/utils/mathutils.c" />
-    <entry file="file://$PROJECT_DIR$/graphstructs.h" />
-    <entry file="file://$PROJECT_DIR$/ug/ungraph.h" />
-    <entry file="file://$PROJECT_DIR$/ug/ungraph.c" />
-    <entry file="file://$PROJECT_DIR$/structs/queue.c" />
-    <entry file="file://$PROJECT_DIR$/structs/stack.c" />
-    <entry file="file://$PROJECT_DIR$/structs/unionfind.c" />
-    <entry file="file://$PROJECT_DIR$/gmgt/graphmgt.c" />
-    <entry file="file://$PROJECT_DIR$/unionfind.c" />
-    <entry file="file://$PROJECT_DIR$/dg/digraph.c" />
-    <entry file="file://$PROJECT_DIR$/dg/digraph.h" />
-    <entry file="file://$PROJECT_DIR$/gmgt/graphmgt.h" />
-    <entry file="file://$PROJECT_DIR$/structs/unionfind.h" />
-    <entry file="file://$PROJECT_DIR$/structs/stack.h" />
-    <entry file="file://$PROJECT_DIR$/structs/queue.h" />
     <entry file="file://$PROJECT_DIR$/GCNavConfig.h.in" />
     <entry file="file://$PROJECT_DIR$/README.md" />
     <entry file="file://$PROJECT_DIR$/License.txt">
@@ -898,13 +1117,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guidance/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -912,34 +1124,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/src/testrunner.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/include/gctest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/src/testrunner.c" />
+    <entry file="file://$PROJECT_DIR$/tests/include/gctest.h" />
     <entry file="file://$PROJECT_DIR$/graphcut/include/ug/ungraph.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="e#93#118#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -948,15 +1138,8 @@
         <state relative-caret-position="374">
           <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
           <folding>
-            <element signature="e#76#99#0" expanded="true" />
+            <element signature="e#76#99#0" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="22" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -964,7 +1147,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -972,9 +1154,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="e#95#120#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -983,9 +1162,9 @@
         <state relative-caret-position="925">
           <caret line="310" column="0" selection-start-line="310" selection-start-column="0" selection-end-line="310" selection-end-column="0" />
           <folding>
-            <element signature="e#76#97#0" expanded="true" />
-            <element signature="e#155#181#0" expanded="true" />
-            <element signature="e#261#289#0" expanded="true" />
+            <element signature="e#76#97#0" expanded="false" />
+            <element signature="e#155#181#0" expanded="false" />
+            <element signature="e#261#289#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -994,19 +1173,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding>
-            <element signature="e#97#122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding>
-            <element signature="e#75#101#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1015,7 +1181,7 @@
         <state relative-caret-position="629">
           <caret line="37" column="3" selection-start-line="37" selection-start-column="3" selection-end-line="37" selection-end-column="3" />
           <folding>
-            <element signature="e#77#105#0" expanded="true" />
+            <element signature="e#77#105#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1024,6 +1190,58 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/CMakeLists.txt" />
+    <entry file="file://$PROJECT_DIR$/graphcut/src/gmgt/graphmgt.c">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/include/utils/mathutils.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Debug/googletest-src/googletest/scripts/test/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Release/googletest-src/googletest/test/gtest_filter_unittest_.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="42" column="10" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Release/googletest-src/googletest/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3883">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.repo/DownloadProject/example.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.repo/DownloadProject/DownloadProject.CMakeLists.cmake.in">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1036,21 +1254,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphcut/include/utils/mathutils.h">
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Debug/googletest-src/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Debug/googletest-src/googlemock/src/gmock_main.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-351">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Debug/googletest-src/googlemock/include/gmock/gmock.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-914">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.CLion2016.2/system/cmake/generated/c_impl-e9e18c8c/e9e18c8c/Debug/googletest-src/googlemock/src/gmock-all.cc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-195">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.repo/DownloadProject/DownloadProject.cmake">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.repo/DownloadProject/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.repo/DownloadProject/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.repo/DownloadProject/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.repo/DownloadProject/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/test/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/test/gtest.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphcut/Makefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graphcut/src/utils/mathutils.c">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" column="4" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="4" />
-          <folding>
-            <element signature="e#78#97#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="550">
+          <caret line="66" column="4" selection-start-line="66" selection-start-column="4" selection-end-line="66" selection-end-column="4" />
+          <folding />
         </state>
       </provider>
     </entry>

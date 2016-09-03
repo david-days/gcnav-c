@@ -5,6 +5,8 @@ project(gcnav)
 set (GCNAV_VERSION_MAJOR 1)
 set (GCNAV_VERSION_MINOR 0)
 
+
+
 configure_file (
         "${PROJECT_SOURCE_DIR}/GCNavConfig.h.in"
         "${PROJECT_BINARY_DIR}/GCNavConfig.h"
@@ -17,4 +19,3 @@ include_directories("${PROJECT_BINARY_DIR}")
 set (CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -std=c99 -Wall")
 
 add_subdirectory(graphcut)
-add_subdirectory(tests)
