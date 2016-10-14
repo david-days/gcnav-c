@@ -20,12 +20,12 @@ double * minCapacity(double *capx, double *capy);
 double * maxCapacity(double *capx, double *capy);
 
 /**
- * Return the min value of the two whole numbers
+ * Return the min value of the two whole values
  */
 size_t * min(size_t *u, size_t *v);
 
 /**
- * Return the max value of the two whole numbers
+ * Return the max value of the two whole values
  */
 size_t * max(size_t *u, size_t *v);
 

@@ -18,7 +18,7 @@ static void initParents(agraph *navgraph)
     size_t psize = navgraph->nnodes + navgraph->nlabels;
     size_t *parents = malloc(psize*sizeof(size_t));
     if (parents == NULL) exit(1);
-    for (int i=0;i<psize;i++) parents[i] = i;
+    for (size_t i=0;i<psize;i++) parents[i] = i;
     navgraph->parents = parents;
 }
 

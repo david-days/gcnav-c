@@ -21,7 +21,7 @@ struct nodepair {
 typedef struct nodepair nedge;
 
 
-
+// defined in src/gcprocess.c
 
 /**
  * Find the max-flow/min-cut solution to the graph
@@ -37,6 +37,8 @@ extern double solve();
  * returns: max-flow value from the single step performed.
  */
 extern double step();
+
+// defined in src/gccheck.c
 
 /**
  * Interrogate the graph cut solution to determine
@@ -55,17 +57,14 @@ extern size_t * label(size_t *n);
  */
 extern nedge * nborders();
 
+// defined in gcupdate.c
+
 /**
  * Add flow to a particular edge
  */
 extern void addCapacity(size_t *u, size_t *v, double *capval);
 
-/**
- * Closes out the graph structure and frees up
- * all associated memory
- */
-extern void closeGraph();
-
+// defined in src/gcinit.c
 
 /**
  * Pointer to a navigation graph structure
@@ -81,6 +80,11 @@ extern agraph *navgraph;
 extern agraph *init2dNavGraph(size_t xdim, size_t ydim);
 
 
+/**
+ * Closes out the graph structure and frees up
+ * all associated memory
+ */
+extern void closeGraph();
 
 
 #endif //GCNAV_C_BORDERCUT_H

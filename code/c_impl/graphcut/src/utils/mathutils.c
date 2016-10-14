@@ -23,14 +23,14 @@ double * maxCapacity(double *capx, double *capy) {
 }
 
 /**
- * Return the min value of the two whole numbers
+ * Return the min value of the two values
  */
 size_t * min(size_t *u, size_t *v) {
     return *u < *v ? u:v;
 }
 
 /**
- * Return the max value of the two whole numbers
+ * Return the max value of the two values
  */
 size_t * max(size_t *u, size_t *v) {
     return *u > *v ? u:v;
@@ -46,7 +46,25 @@ size_t * max(size_t *u, size_t *v) {
  */
 size_t * coordinates(size_t pos, size_t dimsize, size_t *dims) {
     size_t *cartarray = NULL;
-
+    //Sanity check for dimension of at least one
+    if (dimsize == 0) return cartarray;
+    //check for max size
+    size_t maxlen = 1;
+    for (size_t m = 0; m < dimsize; m++) maxlen *= dims[m];
+    if (pos >= maxlen) return cartarray;
+    //perform the conversion
+    cartarray = (size_t *)malloc(sizeof(size_t)*dimsize);
+    size_t mult = 1;
+    size_t rem = pos;
+    for (size_t c = dimsize; c > 0; c--) {
+        mult = 1;
+        for (size_t m = 0; m < c - 1; m++) mult *= dims[m];
+        cartarray[c] = mult / rem;
+        rem = mult % rem;
+    }
+    cartarray[0] = rem;
+    return cartarray;
+}
 
 /**
  * Return an array index-value for the given set of coordinates located within the defined cartesian field
@@ -58,10 +76,10 @@ size_t * coordinates(size_t pos, size_t dimsize, size_t *dims) {
 size_t coordinatesToIndex(size_t *coords, size_t dimsize, size_t *dims) {
     size_t idx = 0;
     size_t mult = 1;
-    for (int i=0;i<dimsize;i++) {
+    for (size_t i=0;i<dimsize;i++) {
         idx += mult*coords[i];
         mult *= dims[i];
     }
     return idx;
 }
-    
+
