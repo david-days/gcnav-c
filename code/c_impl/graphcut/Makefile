@@ -9,21 +9,33 @@ LDFLAGS         = -shared
 DEBUGFLAGS      = -O0 -D
 RELEASEFLAGS    = -O2 -D
 
+SRCDIR = $(CURDIR)/src
+OUTPUTDIR = $(CURDIR)/bin
+INCLUDEDIR = $(CURDIR)/include
+
+export OUTPUTDIR
+
 TARGET_LIB  = libgraphcut.so
-SOURCES = $(shell echo src/*.c)
-HEADERS = $(shell echo include/*.h)
-OBJECTS = $(SOURCES:.c=.o)
-INCLUDES = ./include
+SOURCES = $(shell find $(SRCDIR) -name '*.c')
+HEADERS = $(shell find $(INCLUDEDIR) -name '*.h')
+OBJECTS = $(patsubst $(SRCDIR)/%.c, $(OUTPUTDIR)/%.o, $(SOURCES))
+BINDIRS = $(dir $(OBJECTS))
 
-PREFIX = $(DESTDIR)/usr/local
-BINDIR = $(PREFIX)/bin
+VPATH = src:include:bin
 
-all:  $(TARGET_LIB)
+all:  buildbin
 
-$(TARGET_LIB):  $(OBJECTS)
-	$(CC) $(FLAGS) $(CFLAGS) $(DEBUGFLAGS) $(LDFLAGS) -o $(TARGET_LIB) $(OBJECTS)
+.PHONY: utils
+utils: buildbin
+	cd $(SRCDIR)/utils && $(MAKE)
 
+.PHONY: buildbin
+buildbin:
+	@ mkdir -p $(BINDIRS)
+
+print-% :
+	@echo $* = $($*)
+
+.PHONY: clean
 clean:
-	rm -f $(OBJECTS) $(TARGET_LIB)
-
-
+	@find -type f -iname '*.o' -delete
