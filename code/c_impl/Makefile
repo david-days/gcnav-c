@@ -14,10 +14,6 @@ OBJECTS = $(SOURCES:.c=.o)
 all:
 	cd graphcut && $(MAKE)   
 
-.PHONY: test
-test:
-	cd graphcut && $(MAKE)
-	cd test && $(MAKE)
 
 .PHONY: clean
 clean:

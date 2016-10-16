@@ -23,15 +23,24 @@ BINDIRS = $(dir $(OBJECTS))
 
 VPATH = src:include:bin
 
-all:  buildbin
+all:  buildbin utils structs
 
 .PHONY: utils
 utils: buildbin
 	cd $(SRCDIR)/utils && $(MAKE)
 
+.PHONY: structs
+structs: buildbin
+	cd $(SRCDIR)/structs && $(MAKE)
+
 .PHONY: buildbin
 buildbin:
 	@ mkdir -p $(BINDIRS)
+	@ mkdir -p $(OUTPUTDIR)/test
+
+.PHONY: test
+test: all
+	cd test && $(MAKE)
 
 print-% :
 	@echo $* = $($*)

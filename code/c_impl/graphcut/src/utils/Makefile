@@ -3,7 +3,7 @@
 SHELL = /bin/sh
 
 OUTPUTDIR ?= ../../bin
-BINDIR = $(OUTPUTDIR)/graphcut/utils
+BINDIR = $(OUTPUTDIR)/utils
 
 CC              = gcc
 FLAGS           =
@@ -13,8 +13,6 @@ CFLAGS          = -I../../include -Wall -c
 SOURCES = $(shell echo *.c)
 OBJECTS = $(SOURCES:.c=.o)
 
-
-
 all:  edgeutils.o mathutils.o
 
 edgeutils.o : edgeutils.c utils/edgeutils.h utils/mathutils.h
@@ -23,7 +21,8 @@ edgeutils.o : edgeutils.c utils/edgeutils.h utils/mathutils.h
 mathutils.o : mathutils.c utils/mathutils.h
 	$(CC) $(CFLAGS) $< -o $(BINDIR)/$@
 
+.PHONY: clean
 clean:
-	rm -f $(OBJECTS)
+	find -type f $(BINDIR) -iname '*.o' -delete
 
 
