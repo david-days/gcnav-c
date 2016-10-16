@@ -26,7 +26,7 @@ static size_t smallval = 0;
  *
 **/
 void test_setup() {
-	printf("Setting up math test...\n");
+	//printf("Setting up math test...\n");
 	//set up comparison values
 	bigcap = 100.0;
 	smallcap = 10.0;
@@ -66,7 +66,7 @@ void test_setup() {
  * Clean up memory and test data
 **/
 void test_teardown() {
-	printf("Tearing down math test...\n");
+	//printf("Tearing down math test...\n");
 	free(testdim1);
 	free(testdim2);
 	free(testarr1);
@@ -79,11 +79,11 @@ void test_teardown() {
 MU_TEST(test_min_cap) {
 	double *mincap;
 	mincap = minCapacity(&bigcap, &smallcap);
-	printf("%d == %d\n",*mincap, smallcap);
+	//printf("%f == %f\n",*mincap, smallcap);
 	mu_check(*mincap == smallcap);
 	//test the other way
 	mincap = minCapacity(&smallcap, &bigcap);
-	printf("%d == %d\n", *mincap, smallcap);
+	//printf("%f == %f\n", *mincap, smallcap);
 	mu_check(*mincap == smallcap);
 }
 
@@ -93,11 +93,11 @@ MU_TEST(test_min_cap) {
 MU_TEST(test_max_cap) {
 	double *maxcap;
 	maxcap = maxCapacity(&bigcap, &smallcap);
-	printf("%d == %d\n",*maxcap, bigcap);
+	//printf("%f == %f\n",*maxcap, bigcap);
 	mu_check(*maxcap == bigcap);
 	//test the other way
 	maxcap = maxCapacity(&smallcap, &bigcap);
-	printf("%d == %d\n", *maxcap, bigcap);
+	//printf("%f == %f\n", *maxcap, bigcap);
 	mu_check(*maxcap == bigcap);
 }
 
@@ -107,11 +107,11 @@ MU_TEST(test_max_cap) {
 MU_TEST(test_min_val) {
 	size_t *minval;
 	minval = min(&bigval, &smallval);
-	printf("%i == %i\n",*minval, smallval);
+	//printf("%i == %i\n",*minval, smallval);
 	mu_check(*minval == smallval);
 	//test the other way
 	minval = min(&smallval, &bigval);
-	printf("%i == %i\n",*minval, smallval);
+	//printf("%i == %i\n",*minval, smallval);
 	mu_check(*minval == smallval);
 }
 
@@ -121,11 +121,11 @@ MU_TEST(test_min_val) {
 MU_TEST(test_max_val) {
 	size_t *maxval;
 	maxval = max(&bigval, &smallval);
-	printf("%i == %i\n",*maxval, bigval);
+	//printf("%i == %i\n",*maxval, bigval);
 	mu_check(*maxval == bigval);
 	//test the other way
 	maxval = max(&smallval, &bigval);
-	printf("%i == %i\n",*maxval, bigval);
+	//printf("%i == %i\n",*maxval, bigval);
 	mu_check(*maxval == bigval);
 }
 
@@ -142,7 +142,9 @@ MU_TEST_SUITE(test_suite) {
 
 
 int main(int argc, char *argv[]) {
+	printf("Starting mathutils test suite...\n");
 	MU_RUN_SUITE(test_suite);
 	MU_REPORT();
+	printf("Finished mathutils test suite.\n");
 	return 0;
 }
